@@ -1,0 +1,92 @@
+* {
+    background-color: rgb(10 12 27);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5rem 1.5rem;
+}
+
+
+.box { /* styling a section whose contain all the information */
+    margin-top: 5rem;
+    border-radius: 1em 0 0 1em;
+    background-color: rgb(28 25 56);
+    height: 23rem;
+    width: 30rem;
+}
+
+.about{ /* a div inside a section with the texts */
+    display: inline;
+}
+
+h1 {
+    color: white;
+    width: 20rem;
+    margin: 3rem;
+    background-color: rgb(28 25 56);
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+strong {
+    background-color: rgb(28 25 56);
+    color:blueviolet
+}
+
+.description {
+    color: white;
+    width: 20rem;
+    margin: 3rem;
+    background-color: rgb(28 25 56);
+}
+
+h2{
+    background-color: rgb(28 25 56);
+    color: white;   
+}
+
+.bottom {
+    background-color: rgb(28 25 56);
+    margin-top: 6rem;
+}
+
+.things {
+    background-color: rgb(28 25 56);
+    color: white;
+    width: 8rem;
+    text-align: center;
+    display: inline-block; 
+}
+
+.legend {
+    background-color: rgb(28 25 56);
+    color: #ffffff99;
+    font-size: 0.7rem;
+}
+
+.people {
+    background: url('./images/image-header-desktop.jpg');
+    background-size: cover;
+    float: right;
+    height: 23rem;
+    width: 23rem;
+    margin-top: 5rem;
+    box-shadow: rgb(69 37 88);
+}
+.layer {
+    background-color: rgba(157, 84, 200, 0.7);
+    position: absolute;
+    height: 23rem;
+    width: 23rem;
+}
+
+/* <ul>
+        <li>10k+<br> companies</li>
+        <li>314 <br> templates</li>
+        <li>12m+<br> queries</li>
+      </ul>
